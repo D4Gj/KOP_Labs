@@ -10,7 +10,7 @@ using Spire.Doc;
 using Spire.Doc.Documents;
 using Spire.Doc.Fields;
 
-namespace components
+namespace components36
 {
     public partial class ComponentWordSummary : Component
     {

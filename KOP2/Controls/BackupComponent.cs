@@ -7,7 +7,7 @@ using System.IO.Compression;
 using System.Text;
 using System.Xml.Serialization;
 
-namespace components
+namespace components36
 {
     public partial class BackupComponent : Component
     {

@@ -118,9 +118,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Controls\components.csproj">
+    <ProjectReference Include="..\Controls\components36.csproj">
       <Project>{6813f36f-07e0-417f-882e-22c7de9e5251}</Project>
-      <Name>components</Name>
+      <Name>components36</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

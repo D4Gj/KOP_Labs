@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
-namespace components
+namespace components36
 {
     public partial class ComponentExcelDiagram : Component
     {

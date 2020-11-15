@@ -1,4 +1,4 @@
-﻿using components;
+﻿using components36;
 using MigraDoc.DocumentObjectModel.Shapes.Charts;
 using System;
 using System.Collections.Generic;

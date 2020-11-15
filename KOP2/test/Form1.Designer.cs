@@ -5,7 +5,7 @@
         /// <summary>
         /// Обязательная переменная конструктора.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private System.ComponentModel.IContainer components36 = null;
 
         /// <summary>
         /// Освободить все используемые ресурсы.
@@ -13,9 +13,9 @@
         /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            if (disposing && (components36 != null))
             {
-                components.Dispose();
+                components36.Dispose();
             }
             base.Dispose(disposing);
         }
@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.components36 = new System.ComponentModel.Container();
             this.backupButton = new System.Windows.Forms.Button();
             this.buttonWord = new System.Windows.Forms.Button();
             this.buttonDiagramm = new System.Windows.Forms.Button();
             this.buttonHistogramm = new System.Windows.Forms.Button();
-            this.componentExcelDiagram1 = new components.ComponentExcelDiagram(this.components);
-            this.backupComponent1 = new components.BackupComponent(this.components);
-            this.componentWordSummary1 = new components.ComponentWordSummary(this.components);
+            this.componentExcelDiagram1 = new components36.ComponentExcelDiagram(this.components36);
+            this.backupComponent1 = new components36.BackupComponent(this.components36);
+            this.componentWordSummary1 = new components36.ComponentWordSummary(this.components36);
             this.SuspendLayout();
             // 
             // backupButton
@@ -95,15 +95,15 @@
 
         #endregion
 
-        private components.BackupComponent backupComponent;
+        private components36.BackupComponent backupComponent;
         private System.Windows.Forms.Button backupButton;
         private System.Windows.Forms.Button buttonWord;
         private System.Windows.Forms.Button buttonDiagramm;
         private System.Windows.Forms.Button buttonHistogramm;
-        private components.ComponentExcelDiagram ComponentExcelDiagram;
-        private components.ComponentExcelDiagram componentExcelDiagram1;
-        private components.BackupComponent backupComponent1;
-        private components.ComponentWordSummary componentWordSummary1;
+        private components36.ComponentExcelDiagram ComponentExcelDiagram;
+        private components36.ComponentExcelDiagram componentExcelDiagram1;
+        private components36.BackupComponent backupComponent1;
+        private components36.ComponentWordSummary componentWordSummary1;
     }
 }
 

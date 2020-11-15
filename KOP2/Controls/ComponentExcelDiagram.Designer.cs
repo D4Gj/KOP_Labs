@@ -1,11 +1,11 @@
-﻿namespace components
+﻿namespace components36
 {
     partial class ComponentExcelDiagram
     {
         /// <summary>
         /// Обязательная переменная конструктора.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private System.ComponentModel.IContainer components36 = null;
 
         /// <summary> 
         /// Освободить все используемые ресурсы.
@@ -13,9 +13,9 @@
         /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            if (disposing && (components36 != null))
             {
-                components.Dispose();
+                components36.Dispose();
             }
             base.Dispose(disposing);
         }
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            components36 = new System.ComponentModel.Container();
         }
 
         #endregion
