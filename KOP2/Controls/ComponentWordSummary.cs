@@ -43,6 +43,8 @@ namespace components
             var winword = new Microsoft.Office.Interop.Word.Application();
             try
             {
+               // rowCount = rowNames!=null ? rowNames.Length : 0;
+               // columnCount = columnNames!=null? columnNames.Length : 0;
                 object missing = System.Reflection.Missing.Value;
                 //создаем документ
                 Microsoft.Office.Interop.Word.Document document =
@@ -118,6 +120,7 @@ namespace components
             finally
             {
                 winword.Quit();
+                System.Diagnostics.Process.Start(fileName);
             }
 
         }
