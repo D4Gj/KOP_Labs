@@ -5,7 +5,15 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "components36", "Controls\components36.csproj", "{6813F36F-07E0-417F-882E-22C7DE9E5251}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{2304AEC3-8D94-4DE0-8C98-346D225AE1ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainLogic", "MainLogic\MainLogic.csproj", "{500204E6-FB5B-4226-98DB-50018342DBBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{17BE2E86-7819-4A43-9E25-6843B450FDBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KDAkop", "KDAkop\KDAkop.csproj", "{D09BD47C-0139-4F7B-9378-B46CB6CE261F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "componentsNikitino", "test-DIMON\Controls\componentsNikitino.csproj", "{707C8AC6-A69E-4C40-B0A2-CE377E710E05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NIKITA", "test-DIMON\ClassLibraryControlSelected\NIKITA.csproj", "{FBBBED02-B856-455F-9392-290943A0691D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +25,26 @@ Global
 		{6813F36F-07E0-417F-882E-22C7DE9E5251}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6813F36F-07E0-417F-882E-22C7DE9E5251}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6813F36F-07E0-417F-882E-22C7DE9E5251}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2304AEC3-8D94-4DE0-8C98-346D225AE1ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2304AEC3-8D94-4DE0-8C98-346D225AE1ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2304AEC3-8D94-4DE0-8C98-346D225AE1ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2304AEC3-8D94-4DE0-8C98-346D225AE1ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500204E6-FB5B-4226-98DB-50018342DBBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500204E6-FB5B-4226-98DB-50018342DBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500204E6-FB5B-4226-98DB-50018342DBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500204E6-FB5B-4226-98DB-50018342DBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BE2E86-7819-4A43-9E25-6843B450FDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BE2E86-7819-4A43-9E25-6843B450FDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BE2E86-7819-4A43-9E25-6843B450FDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BE2E86-7819-4A43-9E25-6843B450FDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09BD47C-0139-4F7B-9378-B46CB6CE261F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09BD47C-0139-4F7B-9378-B46CB6CE261F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09BD47C-0139-4F7B-9378-B46CB6CE261F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09BD47C-0139-4F7B-9378-B46CB6CE261F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{707C8AC6-A69E-4C40-B0A2-CE377E710E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707C8AC6-A69E-4C40-B0A2-CE377E710E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707C8AC6-A69E-4C40-B0A2-CE377E710E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707C8AC6-A69E-4C40-B0A2-CE377E710E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBBBED02-B856-455F-9392-290943A0691D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBBBED02-B856-455F-9392-290943A0691D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBBBED02-B856-455F-9392-290943A0691D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBBBED02-B856-455F-9392-290943A0691D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
