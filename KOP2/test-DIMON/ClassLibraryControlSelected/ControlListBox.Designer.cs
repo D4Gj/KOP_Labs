@@ -36,7 +36,7 @@
             this.listBox.FormattingEnabled = true;
             this.listBox.Location = new System.Drawing.Point(24, 19);
             this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(147, 108);
+            this.listBox.Size = new System.Drawing.Size(299, 147);
             this.listBox.TabIndex = 0;
             // 
             // ControlListBox
@@ -45,7 +45,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.listBox);
             this.Name = "ControlListBox";
-            this.Size = new System.Drawing.Size(244, 174);
+            this.Size = new System.Drawing.Size(345, 202);
             this.ResumeLayout(false);
 
         }
