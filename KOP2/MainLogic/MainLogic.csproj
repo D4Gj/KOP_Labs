@@ -170,9 +170,24 @@
       <DependentUpon>20201206121731_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\DatabaseModelSnapshot.cs" />
-    <Compile Include="Patterns\Builder\DirectorBuilder.cs" />
-    <Compile Include="Patterns\Builder\IBuilderUnit.cs" />
+    <Compile Include="Patterns\Bridge\FileRepository.cs" />
+    <Compile Include="Patterns\Bridge\IDataRepository.cs" />
+    <Compile Include="Patterns\Bridge\IReporter.cs" />
+    <Compile Include="Patterns\Bridge\JsonReporter.cs" />
+    <Compile Include="Patterns\Bridge\ReportType.cs" />
+    <Compile Include="Patterns\Bridge\RepositoryType.cs" />
+    <Compile Include="Patterns\Bridge\SiteReporter.cs" />
+    <Compile Include="Patterns\Bridge\TxtReporter.cs" />
+    <Compile Include="Patterns\Bridge\XmlReporter.cs" />
+    <Compile Include="Patterns\Builder\OrganizationUnitDirector.cs" />
+    <Compile Include="Patterns\Builder\IBuilderOrganizationUnit.cs" />
     <Compile Include="Patterns\Builder\ConcreteBuilder.cs" />
+    <Compile Include="Patterns\State\AdvertiseEvent.cs" />
+    <Compile Include="Patterns\State\DoneEvent.cs" />
+    <Compile Include="Patterns\State\Event.cs" />
+    <Compile Include="Patterns\State\EventState.cs" />
+    <Compile Include="Patterns\State\NewEvent.cs" />
+    <Compile Include="Patterns\State\PlanEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\OrganizationUnitViewModel.cs" />
   </ItemGroup>

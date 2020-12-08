@@ -7,7 +7,7 @@ using MainLogic.BindingModel;
 
 namespace MainLogic.Patterns.Builder
 {
-    public interface IBuilderUnit
+    public interface IBuilderOrganizationUnit
     {
         void SetName();
         void SetSurname();

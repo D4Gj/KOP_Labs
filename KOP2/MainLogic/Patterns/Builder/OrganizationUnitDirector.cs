@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MainLogic.BindingModel;
 
 namespace MainLogic.Patterns.Builder
 {
-    public class DirectorBuilder
+    public class OrganizationUnitDirector
     {
-        public Unit Build(IBuilderUnit builderUnit)
+        public OrganizationUnitBindingModel Build(IBuilderOrganizationUnit builderUnit)
         {
             builderUnit.SetName();
             builderUnit.SetPatronymic();

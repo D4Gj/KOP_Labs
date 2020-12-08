@@ -4,52 +4,43 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MainLogic.BindingModel;
+using MainLogic.DataBase.Models;
 
 namespace MainLogic.Patterns
 {
-    public class ConcreteBuilder : IBuilderUnit
+    public class ConcreteBuilder : IBuilderOrganizationUnit
     {
-        private Unit unit = new Unit();
+        private OrganizationUnitBindingModel unit = new OrganizationUnitBindingModel();
 
-        public void SetName()
-        {
-            unit.Name = "Кириллл";
-        }
-
-        public void SetPatronymic()
-        {
-            unit.Patronymic = "Олегович";
-        }
-        
-
-        public void Set()
-        {
-            unit.Surname = "Сурков";
-        }
-
-        public void SetTypeUnit()
-        {
-            unit.TypeUnit = "123";
-        }
-
-        public Unit Build()
+        public OrganizationUnitBindingModel Build()
         {
             return unit;
         }
 
-        public void SetSurname()
-        {
-            throw new NotImplementedException();
-        }
-
         public void SetAmountEmployes()
         {
-            unit.AmountEmployee = "23";
+            unit.AmountEmployes = 5;
+        }
+
+        public void SetName()
+        {
+            unit.Name = "vasya";
+        }
+
+        public void SetPatronymic()
+        {
+            unit.Patronymic = "vasyavich";
+        }
+
+        public void SetSurname()
+        {
+            unit.Surname = "vasyaev";
         }
 
         public void SetTypeOrganization()
         {
-            unit.TypeUnit = Enum;
+            unit.professionType = ProfessionType.Manager;
         }
     }
 }
