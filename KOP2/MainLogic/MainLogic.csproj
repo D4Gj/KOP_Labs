@@ -170,7 +170,9 @@
       <DependentUpon>20201206121731_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\DatabaseModelSnapshot.cs" />
+    <Compile Include="Patterns\Builder\DirectorBuilder.cs" />
     <Compile Include="Patterns\Builder\IBuilderUnit.cs" />
+    <Compile Include="Patterns\Builder\ConcreteBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\OrganizationUnitViewModel.cs" />
   </ItemGroup>
